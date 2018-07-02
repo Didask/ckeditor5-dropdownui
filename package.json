@@ -43,7 +43,7 @@
       "eslint --quiet"
     ]
   },
-  "name": "@ckeditor_contrib/ckeditor5-dropdownui",
+  "name": "ckeditor5-dropdownui",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/didask/ckeditor5-dropdownui.git"
