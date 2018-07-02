@@ -1,0 +1,6 @@
+Changelog
+=========
+
+### Features
+
+* Initial implementation.

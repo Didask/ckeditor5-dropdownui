@@ -1,0 +1,4 @@
+<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+    <text x="10" y="15" style="text-anchor: middle; font-size: 10px;">...</text>
+    <path d="M2 3 h16 v1 H2 V3z"/>
+</svg>

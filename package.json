@@ -1,0 +1,56 @@
+{
+  "author": {
+    "name": "Didask",
+    "url": "http://www.didask.com/"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^10.1.0",
+    "@ckeditor/ckeditor5-ui": "^10.1.0"
+  },
+  "deprecated": false,
+  "description": "Generic dropdown UI feature for CKEditor 5.",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-ckeditor5": "^1.0.7",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "eslintIgnore": [
+    "src/lib/**",
+    "packages/**"
+  ],
+  "files": [
+    "lang",
+    "src",
+    "theme"
+  ],
+  "keywords": [
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "ckeditor5-feature",
+    "dropdown",
+    "toolbar"
+  ],
+  "license": "GPL-2.0-or-later",
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --quiet"
+    ]
+  },
+  "name": "@ckeditor_contrib/ckeditor5-dropdownui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didask/ckeditor5-dropdownui.git"
+  },
+  "scripts": {
+    "lint": "eslint --quiet '**/*.js'",
+    "precommit": "lint-staged"
+  },
+  "version": "1.0.0"
+}
