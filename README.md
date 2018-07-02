@@ -3,6 +3,13 @@ CKEditor 5 generic dropdown UI feature
 
 This package implements generic dropdown UI feature for CKEditor 5.
 
+## Disclaimer
+
+It's an early release:
+No tests and no much documentation at the moment.
+
+Feel free to contribute !
+
 ## Demo
 
 
@@ -22,6 +29,8 @@ But you can put a ':' in the option name, and the name of the command will be us
 
 Implem looks like this :
 ```
+import {DropdownCreator, dropdownUI} from '@ckeditor_contrib/ckeditor5-dropdown-ui/src/dropdownui'
+
 export default {
 
     plugins: [
