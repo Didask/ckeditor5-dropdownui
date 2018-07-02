@@ -12,10 +12,17 @@ Feel free to contribute !
 
 ## Demo
 
-
 ![dropdown-for-anything](https://user-images.githubusercontent.com/1178625/42154152-506681f2-7de5-11e8-884b-83f83a844cf2.gif)
 
 ## Documentation
+
+### Installation
+
+```sh
+npm i ckeditor5-dropdownui
+```
+
+### Usage
 
 The plugin has two methods to call from the config.
 - `DropdownCreator` creates a command from the `plugins` section
@@ -28,8 +35,9 @@ here, the 'alignLeft' option in the 'imageStyle' dropdown will call 'imageStyle:
 But you can put a ':' in the option name, and the name of the command will be used as is.
 
 Implem looks like this :
-```
-import {DropdownCreator, dropdownUI} from '@ckeditor_contrib/ckeditor5-dropdown-ui/src/dropdownui'
+
+```js
+import {DropdownCreator, dropdownUI} from 'ckeditor5-dropdownui/src/dropdownui'
 
 export default {
 
